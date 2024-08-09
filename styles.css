@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url('/photo/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.products .card {
+    transition: transform 0.3s ease;
+
+}
+
+#founders .card-body {
+    background-color: #c1c3c5;
+}
+
+.products .card:hover {
+    transform: translateY(-10px);
+    background-color: #c1c3c5;
+}
+
+.contact .form-control {
+    background-color: #ffffff;
+}
